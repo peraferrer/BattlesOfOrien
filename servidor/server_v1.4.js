@@ -2,7 +2,7 @@
 //homeItems.inicializar(); 
 //var homeJugadores = require('./homeJugadores.js'); <-- PROXIMAMENTE
 var server = require('websocket').server.listen(8086);
-console.log 
+console.log();
 
 /** TEST DE QUE EL HOME ANDA *** (Noel: BORRAR luego de verificar) (Lo dejo para otro, en un futuro, muy copado!)
 espaditaPro = homeItems.buscarPorNombre("ironsword");
@@ -16,7 +16,7 @@ var configuracion = {
     Version : "Alpha",
     Autores : "Puerta 18"
     //INTERVALOS
-}
+};
 
 
 function Punto(x, y) {
